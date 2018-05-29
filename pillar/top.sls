@@ -1,5 +1,3 @@
 base:
-  'salt-master':
-    - minion_id.salt-master  
-  'UbuntuServer':
-    - minion_id.minion4
+  'minion4':
+    - system.server_id
